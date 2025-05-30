@@ -1,2 +1,11 @@
+ HEAD
 data 
 venv
+ c847c2b
+
+venv
+data/*.csv
+data/*.json
+data/*.xlsx
+data
+ 3d9aae89ab026df0aad0026d6ce439562958f14e
