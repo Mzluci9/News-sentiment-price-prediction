@@ -1,5 +1,8 @@
 import pandas as pd
 from pathlib import Path
+import sys, os
+# make sure the package in src is discoverable
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 
 from news_sentiment_price_prediction import (
     descriptive,

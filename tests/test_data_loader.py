@@ -1,5 +1,8 @@
 import pandas as pd
 from pathlib import Path
+import sys, os
+# ensure package can be imported when running tests from workspace root
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 
 from news_sentiment_price_prediction import data_loader
 
