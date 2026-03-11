@@ -1,0 +1,11 @@
+pandas>=1.5
+numpy>=1.24
+matplotlib>=3.6
+seaborn>=0.12
+nltk>=3.8
+scikit-learn>=1.2
+wordcloud>=1.8
+pandas_ta>=0.3
+vaderSentiment>=3.3
+textblob>=0.17
+pytest>=7.0
